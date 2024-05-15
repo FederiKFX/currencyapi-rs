@@ -2,7 +2,5 @@
 #[derive(Debug, Deserialize, Serialize, PartialEq, PartialOrd, Clone)]
 pub struct DetailsResponse {
     /// Data source
-    pub data: String,
-    /// Request status
-    pub meta: String,
+    pub data: HashMap<String, f64>,
 }
