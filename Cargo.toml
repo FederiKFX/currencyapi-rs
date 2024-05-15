@@ -1,8 +1,8 @@
 [package]
 name = "currencyapi-rs"
 description = "An api wrapper for currencyapi.com"
-homepage = "https://github.com/everapihq/currencyapi-rs"
-repository = "https://github.com/everapihq/currencyapi-rs"
+homepage = "https://github.com/FederiKFX/currencyapi-rs"
+repository = "https://github.com/FederiKFX/currencyapi-rs"
 documentation = "https://currencyapi.com/docs"
 license = "MIT"
 version = "0.1.0"
