@@ -4,7 +4,7 @@ pub mod baseline {
     use reqwest::header::{HeaderMap, HeaderValue, CONTENT_TYPE};
     use reqwest::{Client, Url};
 
-    const BASE_URL: &str = "https://api.currencyapi.com/v3/";
+    const BASE_URL: &str = "https://api.freecurrencyapi.com/v1/";
 
     pub fn construct_client(
         user_agent: Option<&str>,
