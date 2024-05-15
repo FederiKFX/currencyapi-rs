@@ -70,7 +70,7 @@ impl<'a> Currencyapi {
         base_currency: &'a str,
         currencies: &'a str,
     ) -> Result<models::DetailsResponse, error::CurrencyapiError> {
-        let mut url = construct_base_url(&self.settings.api_key, Some("latest"))?;
+        let mut url = construct_base_url(&self.settings.api_key, Some("/v1/latest"))?;
         url.query_pairs_mut()
             .append_pair("base_currency", base_currency)
             .append_pair("currencies", currencies);
